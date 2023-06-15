@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="navbar">
+          <div class="navbar_center">
+            <img
+              src="img/4-removebg-preview.png"
+              alt="error()"
+              class="site_logo"
+            />
+            <ul class="navbar_list">
+              <li class="navbar_title"><a href="#">home</a></li>
+              <li class="navbar_title"><a href="#">About me</a></li>
+              <li class="navbar_title"><a href="#">setting</a></li>
+              <li class="navbar_title"><a href="#">contacts</a></li>
+            </ul>
+            <div class="log_in">
+              <button class="log-in_btn">log in</button>
+            </div>
+            <img
+              src="img/png-transparent-computer-icons-menu-hamburger-button-menu-text-rectangle-black-removebg-preview.png"
+              alt=""
+              class="navbar_btn_burgeer"
+              style="width: 10%"
+            />
+          </div>
+        </div>
+      </nav>
+      <div class="burger_menu">
+        <div class="burger_menu_content">
+          <img
+            src="img/7598644.png"
+            alt="error"
+            class="burgen_munu_btn_close"
+          />
+
+          <ul class="burger_menu_list">
+            <li class="burger_menu_item"><a href="#">home</a></li>
+            <li class="burger_menu_item"><a href="#">About me</a></li>
+            <li class="burger_menu_item"><a href="#">setting</a></li>
+            <li class="burger_menu_item"><a href="#">contacts</a></li>
+          </ul>
+        </div>
+      </div>
+      <script>
+        let openBtn = document.querySelector(".navbar_btn_burgeer");
+        let closeBtn = document.querySelector(".burgen_munu_btn_close");
+
+        let burgerMenu = document.querySelector(".burger_menu");
+
+        openBtn.addEventListener("click", () => {
+          burgerMenu.style.display = "block";
+        });
+
+        closeBtn.addEventListener("click", () => {
+          burgerMenu.style.display = "none";
+        });
+      </script>
+    </header>
+
+    <main>
+      <div class="portfolio">
+        <h2 class="portfolio__title">Arzymat</h2>
+        <ul class="portfolio_list">
+          <li class="portfolio_item">
+            <h2>Hard skils</h2>
+            <img src="img/Arzymat.png" alt="error:(" class="" />
+            <p>
+              Хард скилы у меня на низком уровне ну как вы видете на моем сайте
+              мечты но обещяю что я исправлюсь и в ближайшем будующем повышу
+              свою квалефикацию ))))))
+            </p>
+          </li>
+          <li class="portfolio_item">
+            <h2>Soft skils</h2>
+            <img
+              src="img/Снимок экрана 2023-06-15 140403.png"
+              alt="error:("
+              class=""
+            />
+            <p>А вот софт на очень высоком уровне потому что я стрелец</p>
+          </li>
+          <li class="portfolio_item">
+            <h2>Who am I</h2>
+            <img
+              src="img/Снимок экрана 2023-06-15 140319.png"
+              alt="error:("
+              class=""
+            />
+            <p>
+              я мальчик из токмака и не так давно начал учится в Makers где меня
+              научили front end разработке
+            </p>
+          </li>
+        </ul>
+        <img class="portfolio_adaptiv_img" src="img/scrol.png" alt="" />
+        <img src="img/Group 162512.png" alt="" class="portfolio_icon" />
+      </div>
+    </main>
+    <footer>
+      <div class="footbar">
+        <div class="footbar_center">
+          <img
+            src="img/4-removebg-preview.png"
+            alt="error()"
+            class="site_logo"
+          />
+          <p>all rules are protected</p>
+          <ul class="footbar_list">
+            <li class="footbar_title"><a href="#">home</a></li>
+            <li class="footbar_title"><a href="#">About me</a></li>
+            <li class="footbar_title"><a href="#">setting</a></li>
+            <li class="footbar_title"><a href="#">contacts</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
